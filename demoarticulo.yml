@@ -1,3 +1,24 @@
 database:
    pertemplatecs: "Server=192.168.42.140;Database=pertemplate;User ID=SA;Password=Enrique1984;TrustServerCertificate=True"
    miportalcs: "User ID=MIPORTALV2;Password=nuevopass1;Data Source=localhost:1521/XE"
+serilog:
+    minimumLevel:
+       default": "Information"
+       override":
+         microsoft": "Warning"
+         microsoft.Hosting.Lifetime": "Information"      
+    filter:
+      -
+       name: "ByExcluding"
+       args:
+          expression": "@mt = 'An unhandled exception has occurred while executing the request.'"    
+    writeTo:
+      -
+       name: "File"
+       args:
+          path:  "./logs/log-.txt"
+          rollingInterval: "Day"
+      -
+       name: "Seq"
+       args: 
+          serverUrl":  "http://localhost:5341"
