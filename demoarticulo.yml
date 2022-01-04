@@ -16,7 +16,7 @@ serilog:
       -
        name: "File"
        args:
-          path:  "./logs/log-.txt"
+          path:  "F:\\plural\\netcore\\articulo\\log-040122.txt"
           rollingInterval: "Day"
       -
        name: "Seq"
