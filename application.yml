@@ -1,2 +1,6 @@
 user:
   role: ApplicationBookStore
+info:
+  description: Spring Cloud Samples App Master
+  url: https://github.com/spring-cloud-samples
+foo: baz app master
