@@ -3,15 +3,15 @@ database:
    miportalcs: "User ID=MIPORTALV2;Password=nuevopass1;Data Source=localhost:1521/XE"
 serilog:
     minimumLevel:
-       default": "Information"
-       override":
-         microsoft": "Warning"
-         microsoft.Hosting.Lifetime": "Information"      
+       default: "Information"
+       override:
+         microsoft: "Warning"
+         microsoft.Hosting.Lifetime: "Information"      
     filter:
       -
        name: "ByExcluding"
        args:
-          expression": "@mt = 'An unhandled exception has occurred while executing the request.'"    
+          expression: "@mt = 'An unhandled exception has occurred while executing the request.'"    
     writeTo:
       -
        name: "File"
