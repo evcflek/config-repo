@@ -1,6 +1,6 @@
 user:
   role: Development
 info:
-  description: Spring Cloud Samples
+  description: Spring Cloud Samples Dev Master
   url: https://github.com/spring-cloud-samples
-foo: baz
+foo: baz dev master
