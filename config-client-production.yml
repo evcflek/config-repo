@@ -1,5 +1,5 @@
 user:
-  role: User
+  role: UserMaster
 info:
   description: Spring Cloud Samples Prod Master
   url: https://github.com/spring-cloud-samples
