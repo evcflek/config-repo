@@ -1,5 +1,5 @@
 user:
-  role: User
+  role: UserMain
 info:
   description: Spring Cloud Samples Prod Main
   url: https://github.com/spring-cloud-samples
