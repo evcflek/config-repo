@@ -8,3 +8,6 @@ bookStoreDatabaseSettings:
   connectionString: mongodb://enrique:Enrique1984@192.168.42.140:27017
   databaseName: sampledb
   booksCollectionName: Books
+redis:
+  server: 192.168.42.140
+  port: 6379
