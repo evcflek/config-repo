@@ -4,3 +4,7 @@ info:
   description: Spring Cloud Samples Dev Main
   url: https://github.com/spring-cloud-samples
 foo: baz dev main
+bookStoreDatabaseSettings:
+  connectionString: mongodb://enrique:Enrique1984@192.168.42.140:27017
+  databaseName: sampledb
+  booksCollectionName: Books
