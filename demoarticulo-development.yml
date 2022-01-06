@@ -1,6 +1,6 @@
 database:
    pertemplatecs: "Server=192.168.42.140;Database=pertemplate;User ID=SA;Password=Enrique1984;TrustServerCertificate=True"
-   miportalcs: "User ID=MIPORTALV2;Password=nuevopass1;Data Source=192.168.1.61:1521/XE"
+   miportalcs: "User ID=MIPORTALV2;Password=nuevopass1;Data Source=192.168.42.142:1521/XE"
 serilog:
     minimumLevel:
        default: "Information"
