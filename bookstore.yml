@@ -7,4 +7,6 @@ redis:
   port: 6379
 rabbitmq:
   server: 192.168.1.61
-  port: 5672  
+  port: 5672
+  username: enrique
+  password: 123456
