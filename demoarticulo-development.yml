@@ -1,7 +1,7 @@
 baseuribookstoreapi:  "https://localhost:7028/"
 apibooks: "api/Books"
 database:
-   pertemplatecs: "Server=192.168.42.140;Database=pertemplate;User ID=SA;Password=Enrique1984;TrustServerCertificate=True"
+   pertemplatecs: "Server=editorademo.cxujy5sudwuj.us-east-1.rds.amazonaws.com;Database=pertemplate;User ID=admin;Password=d5ppRDr474vJChv;TrustServerCertificate=True"
    miportalcs: "User ID=MIPORTALV2;Password=nuevopass1;Data Source=192.168.42.142:1521/XE"
 serilog:
     minimumLevel:
