@@ -1,2 +1,2 @@
 database:
-   pertemplatecs: "Server=192.168.42.150;Database=BDSEGURIDAD;User ID=SA;Password=Enrique84;TrustServerCertificate=True"
+   ddseguridad: "Server=192.168.42.150;Database=BDSEGURIDAD;User ID=SA;Password=Enrique84;TrustServerCertificate=True"
